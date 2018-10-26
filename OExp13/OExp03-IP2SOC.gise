@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="OExp03-IP2SOC.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="ALU.vf"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="FruitReg_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="M_datapath.vf"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="SOCMF.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="SOCMF.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="SOCMF.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="SOCMF.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="SOCMF.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="SOCMF.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="SOCMF.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="SOCMF.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="SOCMF.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="SOCMF.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SOCMF.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="SOCMF.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="SOCMF.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="SOCMF.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="SOCMF.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="SOCMF.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="SOCMF.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="SOCMF.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="SOCMF.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="SOCMF.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="SOCMF_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="SOCMF_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="SOCMF_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="SOCMF_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="SOCMF_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="SOCMF_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="SOCMF_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="SOCMF_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="SOCMF_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="SOCMF_par.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="SOCMF_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="SOCMF_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="SOCMF_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="StateReg_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="VGA.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="VGA.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="VGA.tfi"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="socmf.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="socmf.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="socmf.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_VGA_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tset_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tset_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tset_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1467280278" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1467280278">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1467315234" xil_pn:in_ck="6597640536270356355" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1467315234">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Counter_3_IO.v"/>
+      <outfile xil_pn:name="Ext_imm16.v"/>
+      <outfile xil_pn:name="FruitReg.v"/>
+      <outfile xil_pn:name="MIO_BUS_IO.v"/>
+      <outfile xil_pn:name="MUX2T1_32.v"/>
+      <outfile xil_pn:name="MUX4T1_32.v"/>
+      <outfile xil_pn:name="MUX4T1_5.v"/>
+      <outfile xil_pn:name="MUX8T1_32.v"/>
+      <outfile xil_pn:name="Multi_8CH32_IO.v"/>
+      <outfile xil_pn:name="Multi_CPU.v"/>
+      <outfile xil_pn:name="PIO_IO.v"/>
+      <outfile xil_pn:name="REG32.v"/>
+      <outfile xil_pn:name="SAnti_jitter_IO.v"/>
+      <outfile xil_pn:name="SEnter_2_32_IO.v"/>
+      <outfile xil_pn:name="SOCMF.v"/>
+      <outfile xil_pn:name="SPIO_IO.v"/>
+      <outfile xil_pn:name="SSeg7_Dev_IO.v"/>
+      <outfile xil_pn:name="Seg7_Dev_IO.v"/>
+      <outfile xil_pn:name="SignalExt_32.v"/>
+      <outfile xil_pn:name="StateReg.v"/>
+      <outfile xil_pn:name="VGA.v"/>
+      <outfile xil_pn:name="VGA_Control.v"/>
+      <outfile xil_pn:name="VGA_Display.v"/>
+      <outfile xil_pn:name="addc_32.v"/>
+      <outfile xil_pn:name="and32.v"/>
+      <outfile xil_pn:name="clk_div.v"/>
+      <outfile xil_pn:name="clk_div_4.v"/>
+      <outfile xil_pn:name="ctrl.v"/>
+      <outfile xil_pn:name="nor32.v"/>
+      <outfile xil_pn:name="or32.v"/>
+      <outfile xil_pn:name="or_bit_32 .v"/>
+      <outfile xil_pn:name="regs.v"/>
+      <outfile xil_pn:name="srl32.v"/>
+      <outfile xil_pn:name="test.v"/>
+      <outfile xil_pn:name="test1.v"/>
+      <outfile xil_pn:name="test_VGA.v"/>
+      <outfile xil_pn:name="tset.v"/>
+      <outfile xil_pn:name="xor32.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1467317610" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4873880815104816208" xil_pn:start_ts="1467317610">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1467317614" xil_pn:in_ck="2809851993521095885" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8418030683702494276" xil_pn:start_ts="1467317610">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1467315238" xil_pn:in_ck="-5112010202250014648" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-6083066880543420869" xil_pn:start_ts="1467315238">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/RAM_B.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/RAM_B.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1467315238" xil_pn:in_ck="2340279089668807383" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1467315238">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Counter_3_IO.v"/>
+      <outfile xil_pn:name="Ext_imm16.v"/>
+      <outfile xil_pn:name="FruitReg.v"/>
+      <outfile xil_pn:name="MIO_BUS_IO.v"/>
+      <outfile xil_pn:name="MUX2T1_32.v"/>
+      <outfile xil_pn:name="MUX4T1_32.v"/>
+      <outfile xil_pn:name="MUX4T1_5.v"/>
+      <outfile xil_pn:name="MUX8T1_32.v"/>
+      <outfile xil_pn:name="Multi_8CH32_IO.v"/>
+      <outfile xil_pn:name="Multi_CPU.v"/>
+      <outfile xil_pn:name="PIO_IO.v"/>
+      <outfile xil_pn:name="REG32.v"/>
+      <outfile xil_pn:name="SAnti_jitter_IO.v"/>
+      <outfile xil_pn:name="SEnter_2_32_IO.v"/>
+      <outfile xil_pn:name="SOCMF.v"/>
+      <outfile xil_pn:name="SPIO_IO.v"/>
+      <outfile xil_pn:name="SSeg7_Dev_IO.v"/>
+      <outfile xil_pn:name="Seg7_Dev_IO.v"/>
+      <outfile xil_pn:name="SignalExt_32.v"/>
+      <outfile xil_pn:name="StateReg.v"/>
+      <outfile xil_pn:name="VGA.v"/>
+      <outfile xil_pn:name="VGA_Control.v"/>
+      <outfile xil_pn:name="VGA_Display.v"/>
+      <outfile xil_pn:name="addc_32.v"/>
+      <outfile xil_pn:name="and32.v"/>
+      <outfile xil_pn:name="clk_div.v"/>
+      <outfile xil_pn:name="clk_div_4.v"/>
+      <outfile xil_pn:name="ctrl.v"/>
+      <outfile xil_pn:name="ipcore_dir/RAM_B.v"/>
+      <outfile xil_pn:name="nor32.v"/>
+      <outfile xil_pn:name="or32.v"/>
+      <outfile xil_pn:name="or_bit_32 .v"/>
+      <outfile xil_pn:name="regs.v"/>
+      <outfile xil_pn:name="srl32.v"/>
+      <outfile xil_pn:name="test.v"/>
+      <outfile xil_pn:name="test1.v"/>
+      <outfile xil_pn:name="test_VGA.v"/>
+      <outfile xil_pn:name="tset.v"/>
+      <outfile xil_pn:name="xor32.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1467317620" xil_pn:in_ck="2340279089668807383" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1454164122111935521" xil_pn:start_ts="1467317614">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="test_beh.prj"/>
+      <outfile xil_pn:name="test_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1467317621" xil_pn:in_ck="5126092464930627040" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1498448368571101188" xil_pn:start_ts="1467317620">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="test_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1467261224" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1467261224">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1467262375" xil_pn:in_ck="2809851993521095885" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="1096890814320092956" xil_pn:start_ts="1467262369">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.vf"/>
+      <outfile xil_pn:name="M_datapath.vf"/>
+    </transform>
+    <transform xil_pn:end_ts="1467290424" xil_pn:in_ck="-5112010202250014648" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-6083066880543420869" xil_pn:start_ts="1467290423">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/RAM_B.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/RAM_B.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1467187867" xil_pn:in_ck="-2675640010864512073" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1467187867">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1467187867" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-5876649362572088152" xil_pn:start_ts="1467187867">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1467187867" xil_pn:in_ck="-2675640010864512073" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-679146238375871736" xil_pn:start_ts="1467187867">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1467187867" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="4698505196767164293" xil_pn:start_ts="1467187867">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1467310776" xil_pn:in_ck="3687885857203467746" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="2720265561623011420" xil_pn:start_ts="1467310549">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="SOCMF.lso"/>
+      <outfile xil_pn:name="SOCMF.ngc"/>
+      <outfile xil_pn:name="SOCMF.ngr"/>
+      <outfile xil_pn:name="SOCMF.prj"/>
+      <outfile xil_pn:name="SOCMF.stx"/>
+      <outfile xil_pn:name="SOCMF.syr"/>
+      <outfile xil_pn:name="SOCMF.xst"/>
+      <outfile xil_pn:name="SOCMF_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1467187888" xil_pn:in_ck="8557826411608917488" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="4066557905354089402" xil_pn:start_ts="1467187888">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1467290697" xil_pn:in_ck="1552519804807959932" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="2095936019863210647" xil_pn:start_ts="1467290649">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="SOCMF.bld"/>
+      <outfile xil_pn:name="SOCMF.ngd"/>
+      <outfile xil_pn:name="SOCMF_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1467290926" xil_pn:in_ck="-5862014019762670097" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="-1239519347495594584" xil_pn:start_ts="1467290697">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="SOCMF.pcf"/>
+      <outfile xil_pn:name="SOCMF_map.map"/>
+      <outfile xil_pn:name="SOCMF_map.mrp"/>
+      <outfile xil_pn:name="SOCMF_map.ncd"/>
+      <outfile xil_pn:name="SOCMF_map.ngm"/>
+      <outfile xil_pn:name="SOCMF_map.xrpt"/>
+      <outfile xil_pn:name="SOCMF_summary.xml"/>
+      <outfile xil_pn:name="SOCMF_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1467291129" xil_pn:in_ck="-8663222549649562488" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-8808472733522092617" xil_pn:start_ts="1467290926">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="SOCMF.ncd"/>
+      <outfile xil_pn:name="SOCMF.pad"/>
+      <outfile xil_pn:name="SOCMF.par"/>
+      <outfile xil_pn:name="SOCMF.ptwx"/>
+      <outfile xil_pn:name="SOCMF.unroutes"/>
+      <outfile xil_pn:name="SOCMF.xpi"/>
+      <outfile xil_pn:name="SOCMF_pad.csv"/>
+      <outfile xil_pn:name="SOCMF_pad.txt"/>
+      <outfile xil_pn:name="SOCMF_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1467291284" xil_pn:in_ck="120188398879099" xil_pn:name="TRANEXT_bitFile_virtex7" xil_pn:prop_ck="3160107541638749219" xil_pn:start_ts="1467291129">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="SOCMF.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="socmf.bgn"/>
+      <outfile xil_pn:name="socmf.bit"/>
+      <outfile xil_pn:name="socmf.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1467282655" xil_pn:in_ck="166599882082277" xil_pn:name="TRAN_impactProgrammingTool" xil_pn:prop_ck="-5505904082297326742" xil_pn:start_ts="1467282655">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1467291129" xil_pn:in_ck="-5862014019762670229" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="-3742689831323817468" xil_pn:start_ts="1467291074">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="SOCMF.twr"/>
+      <outfile xil_pn:name="SOCMF.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

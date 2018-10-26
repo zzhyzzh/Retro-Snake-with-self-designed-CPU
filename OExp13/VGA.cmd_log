@@ -1,0 +1,3 @@
+vhdtdtfi -lib work D:/ISE/OExp13/OExp13/VGA.v -lang verilog -prj OExp03-IP2SOC -o VGA.spl -module VGA -template d:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj OExp03-IP2SOC -o D:/ISE/OExp13/OExp13/VGA.tfi -lib work D:/ISE/OExp13/OExp13//VGA.v -module VGA -template d:/Xilinx/14.2/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 VGA.spl D:/ISE/OExp13/OExp13/VGA.sym 

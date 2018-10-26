@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+VGA instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .hs(hs), 
+    .vs(vs), 
+    .x_ptr(x_ptr), 
+    .y_ptr(y_ptr), 
+    .valid(valid)
+    );
+
+
